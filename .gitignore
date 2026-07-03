@@ -1,0 +1,44 @@
+# Local agent and project-management state
+.codex/
+.agents/
+.planning/
+.continue-here.md
+STATE.md
+PROJECT.md
+ROADMAP.md
+
+# Internal planning/spec workflow artifacts
+docs/PROJECT-MANAGEMENT.md
+docs/superpowers/
+docs/phases/
+docs/adr/
+docs/evals/
+docs/threat-models/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Node/frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+coverage/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
